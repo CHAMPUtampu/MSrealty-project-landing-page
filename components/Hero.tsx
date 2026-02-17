@@ -10,7 +10,7 @@ export default function Hero() {
                 <div
                     className="absolute inset-0 bg-cover bg-no-repeat transition-transform duration-1000"
                     style={{
-                        backgroundImage: "url('/hero-bg-final.png')", // High quality generated image
+                        backgroundImage: "url('/hero-bg-v3.png')", // Improved composition
                         backgroundPosition: "center center",
                     }}
                 />
