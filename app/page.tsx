@@ -1,4 +1,3 @@
-import TopBar from "@/components/TopBar";
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import Features from "@/components/Features";
@@ -12,7 +11,6 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 export default function Home() {
   return (
     <main className="min-h-screen">
-      <TopBar />
       <Navbar />
       <Hero />
       <Features />

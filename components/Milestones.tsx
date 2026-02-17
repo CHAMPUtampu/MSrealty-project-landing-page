@@ -15,8 +15,8 @@ export default function Milestones() {
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
                     {milestones.map((item, index) => (
-                        <div key={index} className="bg-gray-100 rounded-lg p-10 flex flex-col items-center justify-center text-center hover:bg-gray-200 transition-colors">
-                            <span className="text-4xl md:text-5xl font-black text-black mb-2">{item.number}</span>
+                        <div key={index} className="bg-gray-100 rounded-lg p-10 flex flex-col items-center justify-center text-center hover:bg-white hover:shadow-xl transition-all duration-300 border border-transparent hover:border-[#D4AF37]/20">
+                            <span className="text-4xl md:text-5xl font-black text-[#D4AF37] mb-2">{item.number}</span>
                             <span className="text-gray-700 font-medium">{item.label}</span>
                         </div>
                     ))}

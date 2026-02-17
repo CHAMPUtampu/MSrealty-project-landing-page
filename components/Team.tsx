@@ -45,10 +45,10 @@ export default function Team() {
                             {member.role && <p className="text-gray-500 text-sm mb-4">{member.role}</p>}
 
                             <div className="flex gap-4 mt-auto pt-4">
-                                <button className="bg-black/5 p-2 rounded-full text-gray-700 hover:bg-black/10 transition-colors">
+                                <button className="bg-black/5 p-2 rounded-full text-gray-700 hover:bg-[#D4AF37] hover:text-white transition-all duration-300">
                                     <Phone size={18} />
                                 </button>
-                                <button className="bg-black/5 p-2 rounded-full text-gray-700 hover:bg-black/10 transition-colors">
+                                <button className="bg-black/5 p-2 rounded-full text-gray-700 hover:bg-[#D4AF37] hover:text-white transition-all duration-300">
                                     <Instagram size={18} />
                                 </button>
                             </div>
