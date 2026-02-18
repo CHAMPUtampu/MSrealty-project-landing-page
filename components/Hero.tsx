@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 export default function Hero() {
     return (
-        <section className="relative w-full h-[90vh] min-h-[700px] flex flex-col justify-center">
+        <section className="relative w-full h-[90vh] min-h-[700px] flex flex-col justify-start md:justify-center">
             {/* Background Image using Next.js Image for better quality */}
             <div className="absolute inset-0 z-0">
                 <Image
